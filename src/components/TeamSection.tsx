@@ -1,10 +1,10 @@
 import { Linkedin } from 'lucide-react'
 
 const team = [
-  { name: 'Ankit Prajapat', initials: 'AP', linkedin: '#' },
-  { name: 'Neev Sahu',      initials: 'NS', linkedin: '#' },
-  { name: 'Arpit Patel',    initials: 'AP', linkedin: '#' },
-  { name: 'Saket Kaurav',   initials: 'SK', linkedin: '#' },
+  { name: 'Ankit Prajapat', initials: 'AP', scholar: '2311401129', linkedin: 'https://www.linkedin.com/in/ankit-prajapat/' },
+  { name: 'Neev Sahu',      initials: 'NS', scholar: '2311401128', linkedin: 'https://www.linkedin.com/in/neev-sahu/' },
+  { name: 'Arpit Patel',    initials: 'AP', scholar: '2311401137', linkedin: 'https://www.linkedin.com/in/arpit-patel-072a352a7/' },
+  { name: 'Saket Kourav',   initials: 'SK', scholar: '2311401116', linkedin: 'https://www.linkedin.com/in/saket-kourav-1a5806286/' },
 ]
 
 export default function TeamSection() {
@@ -28,7 +28,8 @@ export default function TeamSection() {
               <div className="w-16 h-16 rounded-2xl btn-primary flex items-center justify-center mb-4 text-white font-heading font-bold text-xl">
                 {member.initials}
               </div>
-              <h3 className="font-heading font-semibold text-foreground mb-4">{member.name}</h3>
+              <h3 className="font-heading font-semibold text-foreground mb-1">{member.name}</h3>
+              <p className="text-xs text-muted mb-4">{member.scholar}</p>
               <a
                 href={member.linkedin}
                 target="_blank"
