@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+.env
+venv/
+.venv/
+
+# Node
+node_modules/
+dist/
+.DS_Store
+
+# Debug files
+api/debug_roi.py
+api/verify_pipeline.py
+api/test_predictions.py
+api/palm_roi_debug.jpg
+api/nail_roi_debug.jpg
+api/palm_roi_check.jpg
+api/nail_roi_check.jpg
