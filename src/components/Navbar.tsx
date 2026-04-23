@@ -7,10 +7,11 @@ interface NavbarProps {
 }
 
 const links = [
-  { label: 'Home', href: '#home' },
+  { label: 'Home',   href: '#home' },
   { label: 'Upload', href: '#upload' },
   { label: 'Result', href: '#result' },
-  { label: 'About', href: '#about' },
+  { label: 'About',  href: '#about' },
+  { label: 'Team',   href: '#team' },
 ]
 
 export default function Navbar({ dark, onToggleDark }: NavbarProps) {
