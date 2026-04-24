@@ -12,7 +12,7 @@ export default function Footer() {
         </div>
 
         <p className="text-sm text-muted text-center">
-          Developed by <strong className="text-foreground">Your Name</strong> · ML Research Project © 2026
+          ML Research Project © 2026
         </p>
 
         <div className="flex items-center gap-2.5">
