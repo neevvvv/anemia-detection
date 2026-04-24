@@ -40,7 +40,7 @@ export default function Hero() {
             {[
               { stat: '95%', label: 'Accuracy' },
               { stat: '<3s', label: 'Analysis' },
-              { stat: '5+', label: 'ML Models' },
+              { stat: '5', label: 'ML Models' },
             ].map(b => (
               <div key={b.label} className="bg-card border border-border rounded-xl px-5 py-3 shadow-card min-w-[90px]">
                 <div className="font-heading font-bold text-xl text-foreground">{b.stat}</div>
